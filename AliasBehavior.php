@@ -45,7 +45,7 @@ class AliasBehavior extends Behavior
     /**
      * @var array
      */
-    public $attributeConfig = ['class' => 'app\components\AliasAttribute'];
+    public $attributeConfig = ['class' => 'RangelReale\aliasbehavior\AliasAttribute'];
 
     /**
      * @var bool
