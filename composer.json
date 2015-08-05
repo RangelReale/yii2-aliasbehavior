@@ -1,0 +1,23 @@
+{
+    "name": "RangelReale/yii2-aliasbehavior",
+    "description": "Yii behavior for model attribute aliasing and format conversion",
+    "keywords": ["yii2", "format", "behavior", "model"],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Rangel Reale",
+            "email": "rangelspam@gmail.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "*",
+        "RangelReale/yii2-dataformat": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RangelReale\\aliasbehavior\\": ""
+        }
+    }    
+}
