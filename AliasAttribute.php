@@ -2,13 +2,13 @@
 
 namespace RangelReale\aliasbehavior;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class AliasAttribute
  * @property string $value
  */
-class AliasAttribute extends Object
+class AliasAttribute extends BaseObject
 {
     /**
      * @var AliasBehavior
